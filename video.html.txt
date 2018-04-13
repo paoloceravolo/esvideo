@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Esempio video</title>
+</head>
+<body>
+
+
+
+	<!-- Simple video example https://homes.di.unimi.it/ceravolo/video/BigBuckBunny_2000h264.mp4
+<video src="https://r2---sn-4g5edns7.googlevideo.com/videoplayback?id=o-AOYu8e4OlbbdxS8UtVufuSvBTuJkgpDosJVY4SDP78u8&key=cms1&expire=1521128786&requiressl=yes&ei=8UCqWrSdNomvuwX747TYAQ&pl=20&ipbits=0&ip=2600%3A3c00%3A%3Af03c%3A91ff%3Afe9b%3A337c&fvip=2&ratebypass=yes&dur=304.506&c=WEB&signature=4D28FB228D5CE5CFF0A0F836D9E97384A604F9B7.5DCAC9132D3BC4A8177B93EB13855645D3D8F381&lmt=1479814654294281&sparams=dur,ei,expire,id,initcwndbps,ip,ipbits,itag,lmt,mime,mip,mm,mn,ms,mv,pl,ratebypass,requiressl,source&itag=22&source=youtube&mime=video%2Fmp4&title=Italia%20VS%20Sudafrica%2020-18%20%7C%20Gli%20highlights%20di%20una%20vittoria%20storica&redirect_counter=1&cm2rm=sn-q4fe7y7l&req_id=2e4695b54df3a3ee&cms_redirect=yes&mip=159.149.242.255&mm=34&mn=sn-4g5edns7&ms=ltu&mt=1521106979&mv=u" autoplay poster="https://vignette.wikia.nocookie.net/paperpedia/images/7/72/Paperino_che_cammina.jpg/revision/latest?cb=20160330135113&path-prefix=it" style="width: 600px">
+Sorry, your browser doesn't support embedded videos, 
+but don't worry, you can <a href="https://homes.di.unimi.it/ceravolo/video/BigBuckBunny_2000h264.mp4">download it</a>
+and watch it with your favorite video player!
+</video>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UUo9e3KQFHU?rel=0&amp;start=80&autoplay=1&rel=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+<!-- Video with subtitles
+<video src="https://homes.di.unimi.it/ceravolo/video/BigBuckBunny_2000h264.mp4" style="width: 300px;" controls>
+  <track kind="subtitles" src="foo.en.vtt" srclang="en"
+    label="English">
+  <track kind="subtitles" src="foo.sv.vtt" srclang="sv"
+    label="Svenska">
+</video>
+-->
+
+<video width="480" controls
+  poster="https://vignette.wikia.nocookie.net/paperpedia/images/7/72/Paperino_che_cammina.jpg/revision/latest?cb=20160330135113&path-prefix=it" >
+  <source
+    src="https://r2---sn-4g5edns7.googlevideo.com/videoplayback?id=o-AOYu8e4OlbbdxS8UtVufuSvBTuJkgpDosJVY4SDP78u8&key=cms1&expire=1521128786&requiressl=yes&ei=8UCqWrSdNomvuwX747TYAQ&pl=20&ipbits=0&ip=2600%3A3c00%3A%3Af03c%3A91ff%3Afe9b%3A337c&fvip=2&ratebypass=yes&dur=304.506&c=WEB&signature=4D28FB228D5CE5CFF0A0F836D9E97384A604F9B7.5DCAC9132D3BC4A8177B93EB13855645D3D8F381&lmt=1479814654294281&sparams=dur,ei,expire,id,initcwndbps,ip,ipbits,itag,lmt,mime,mip,mm,mn,ms,mv,pl,ratebypass,requiressl,source&itag=22&source=youtube&mime=video%2Fmp4&title=Italia%20VS%20Sudafrica%2020-18%20%7C%20Gli%20highlights%20di%20una%20vittoria%20storica&redirect_counter=1&cm2rm=sn-q4fe7y7l&req_id=2e4695b54df3a3ee&cms_redirect=yes&mip=159.149.242.255&mm=34&mn=sn-4g5edns7&ms=ltu&mt=1521106979&mv=u"
+    type="video/webm">
+  <source
+    src="https://homes.di.unimi.it/ceravolo/video/BigBuckBunny_2000h264.mp4"
+    type="video/mp4">
+  <source
+    src="https://archive.org/download/WebmVp8Vorbis/webmvp8.ogv"
+    type="video/ogg">
+  Your browser doesn't support HTML5 video tag.
+</video>
+
+</body>
+</html>
